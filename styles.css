@@ -54,9 +54,24 @@ body {
   .weather-display {
     margin-top: 20px;
   }
-  
+
   .weather-display img {
     width: 100px;
     margin: 20px auto;
   }
-  
+  /* Add in your CSS or <style> section */
+.bg-rain {
+  background: linear-gradient(to bottom, #4a90e2, #003399);
+}
+.bg-clear {
+  background: linear-gradient(to bottom, #ffcc33, #ff9900);
+}
+.bg-snow {
+  background: linear-gradient(to bottom, #e0eafc, #cfdef3);
+}
+.bg-clouds {
+  background: linear-gradient(to bottom, #bdc3c7, #2c3e50);
+}
+.bg-default {
+  background: linear-gradient(to bottom, #4c669f, #3b5998, #192f6a);
+}
